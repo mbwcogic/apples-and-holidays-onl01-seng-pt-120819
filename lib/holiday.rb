@@ -65,7 +65,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
 
-   supplies_hash.collect do |season, holidays|
+   holiday_hash.collect do |season, holidays|
     holiday.collect do |holiday, supplies|
       
 end
